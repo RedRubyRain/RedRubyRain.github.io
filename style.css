@@ -1,0 +1,35 @@
+.fullwidth-bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+ 
+.fullwidth-bg__video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+ 
+.video-layer{
+    background: url(./Media/pixel.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+ 
+.video-layer h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
+@media (max-width: 767px) {
+    .fullwidth-bg {
+        background: url('./Media/video-bg-alt.jpg') center center / cover no-repeat;
+    }
+ 
+    .fullwidth-bg__video {
+        display: none;
+    }
+}
